@@ -1,4 +1,5 @@
 import os, platform
+rm -rf .chuser.txt
 try:
         import requests
 except:
