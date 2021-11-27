@@ -1,5 +1,4 @@
 import os, platform
-os.system('rm -rf .chuser.txt')
 try:
         import requests
 except:
