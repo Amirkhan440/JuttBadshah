@@ -7,8 +7,8 @@ except:
 import requests
 bit = platform.architecture()[0]
 if bit == "64bit":
-        from Jutt import login
+        from Jutt import reg
         reg()
 elif bit == "32bit":
-        from brand import login
+        from brand import reg
         reg()
